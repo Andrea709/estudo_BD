@@ -95,6 +95,14 @@ insert into mydb.turmas(alunos_matricula, cursos_id_cursos, data_inicio, data_fo
 insert into mydb.turmas(alunos_matricula, cursos_id_cursos, data_inicio, data_formatura, professores_id_professores)
 	values(2, 2, 12/06/2022, 12/12/2022, 2);
 
+
+select * from mydb.alunos;
+
+select * from mydb.cursos;
+
+select * from mydb.professores;
+
+select * from mydb.turmas;
     
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
